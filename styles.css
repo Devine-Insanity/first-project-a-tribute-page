@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+html {
+  background: url(./images/HlC1s9.jpg);
+  background-size: cover;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#title {
+  text-align: center;
+  padding: 5rem 1rem;
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-family: "Roboto", sans-serif;
+  color: rgb(255, 255, 255);
+  text-shadow: 5px 3px 5px rgb(189, 39, 39);
+}
+#title p {
+  text-align: center;
+  padding-top: 1.5rem;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+#tribute-info {
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+/* .img {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: transparent url(./images/jason\normal.png) no-repeat 0 0;
+}
+.img:hover {
+  background: url(./images/Jason\blood.png);
+} */
+#img {
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  /* border: 5px solid rgb(189, 39, 39); */
+}
+
+h3 {
+  padding-bottom: 2rem;
+  font-size: 2rem;
+}
+p {
+  padding-bottom: 2rem;
+  text-align: left;
+}
+#footer {
+  font-size: 1.5rem;
+}
+a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255);
+  text-shadow: 5px 3px 5px rgb(189, 39, 39);
+}
+/* #bg {
+  width: 100%;
+  z-index: 0s;
+} */
